@@ -25,5 +25,164 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Kumbh Sans", serif;
+  background-color: #0989b4;
+}
+
+.img-top {
+  position: relative;
+  top: -310px;
+  left: -420px;
+  height: 621px;
+  width: 621;
+  rotate: 45deg;
+}
+
+@media screen and (width>768px) {
+  .img-top {
+    position: absolute;
+    top: -551px;
+    left: -300px;
+    height: 978px;
+    width: 976px;
+  }
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 374px;
+  width: 326px;
+  margin-top: 147px;
+  margin-inline: 25px;
+  padding: 0;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media screen and (width>768px) {
+  .card {
+    position: relative;
+    margin-inline: auto;
+    width: 350px;
+  }
+}
+
+.selfie {
+  position: relative;
+  top: -48px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0px 7px white;
+}
+
+.self-pic {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.nameg {
+  position: relative;
+  top: -40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 49px;
+  width: 135px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.regular {
+  font-weight: 400;
+  color: #6b7082;
+}
+
+.city {
+  color: #6b7082;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  height: 88px;
+  width: 326px;
+  border-top: 1px solid #e8e9ec;
+}
+
+@media screen and (width>768px) {
+  .counters {
+    width: 350px;
+    justify-content: center;
+    gap: 46px;
+  }
+}
+
+.numandfollow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numandlikes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.numandpics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.numb {
+  color: #2e3349;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.capt {
+  color: #6b7082;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.img-bot {
+  position: relative;
+  top: -280px;
+  left: 175px;
+  height: 622px;
+  width: 621px;
+  rotate: -45deg;
+  z-index: -1;
+}
+
+@media screen and (width>768px) {
+  .img-bot {
+    position: absolute;
+    top: 374px;
+    left: 692px;
+    height: 978px;
+    width: 976px;
+  }
 }
